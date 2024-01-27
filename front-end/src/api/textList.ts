@@ -1,0 +1,1 @@
+export const textList: Map<String, Object> = new Map<String, Object>();

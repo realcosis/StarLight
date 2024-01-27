@@ -1,0 +1,27 @@
+{
+    "login": {
+        "title": "Create your avatar, decorate your room and meet new friends!",
+        "login-window-username": "Username",
+        "login-window-password": "Password",
+        "login-window-enter": "Login",
+        "success-login-message": "You have successfully logged in {0}"
+    },
+    "registration": {
+        "title": "Registration"
+    },
+    "maintenance": {
+        "title": "Maintenance"
+    },
+    "profile": {
+        "title": "Profile of {0}"
+    },
+    "community": {
+        "title": "Community"
+    },
+    "header": {
+        "online_text": "Online Users"
+    },
+    "footer": {
+        "text": "© 2023 - {0} is a non-profit educational project"
+    }
+}

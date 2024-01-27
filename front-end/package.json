@@ -1,0 +1,29 @@
+{
+    "name": "@starlight/frontend",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "RealCosis",
+        "email": "gogliacosimoceleste@gmail.com"
+    },
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "build:prod": "npx browserslist@latest --update-db && npm run build",
+        "build:tailwind": "npx tailwindcss -i ./src/main.css -o ./public/css/template.css --watch"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.8.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.13.0",
+        "@types/react": "^18.2.7",
+        "@types/react-dom": "^18.2.4",
+        "@vitejs/plugin-react": "^3.1.0",
+        "sweetalert2": "^11.7.3",
+        "vite": "^4.0.0"
+    }
+}

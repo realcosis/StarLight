@@ -1,0 +1,12 @@
+{
+    "name": "@starlight/core",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "RealCosis",
+        "email": "gogliacosimoceleste@gmail.com"
+    },
+    "devDependencies": {
+        "@types/node": "^18.13.0"
+    }
+}

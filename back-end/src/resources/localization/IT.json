@@ -1,0 +1,16 @@
+{
+    "login": {
+        "username.required": "Il campo username è necessario!",
+        "password.required": "Il campo password è necessario!",
+        "user.not_found": "L'utente richiesto non esiste!",
+        "user.wrong_password": "La password inserita non corrisponde!"
+    },
+    "session": {
+        "session.missing_token": "L'header token per la sessione non è stato trovato!",
+        "session.not_found": "La sessione richiesta non esiste!"
+    },
+    "profile": {
+        "empty.username": "Inserisci l'username dell'utente da cercare!",
+        "user.not_found": "L'utente {0} non esiste!"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "login": {
+        "title": "Crea il tuo avatar, decora la tua stanza e incontra nuovi amici!",
+        "login-window-username": "Username",
+        "login-window-password": "Password",
+        "login-window-enter": "Entra",
+        "success-login-message": "Sei entrato con successo su {0}"
+    },
+    "registration": {
+        "title": "Registrazione"
+    },
+    "maintenance": {
+        "title": "Manutenzione"
+    },
+    "profile": {
+        "title": "Profilo di {0}"
+    },
+    "community": {
+        "title": "Community"
+    },
+    "header": {
+        "online_text": "Utenti Online"
+    },
+    "footer": {
+        "text": "© 2023 - {0} è un progetto educativo senza fini di lucro"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "system": {
+        "debug": false,
+        "secret": "cosimo"
+    },
+    "database": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "password": "",
+        "source": "arcturus"
+    },
+    "http": {
+        "host": "0.0.0.0",
+        "port": 3002,
+        "ssl": false,
+        "origin": "http://localhost:3005",
+        "domain": "localhost"
+    },
+    "rcon": {
+        "host": "127.0.0.1",
+        "port": 3001
+    }
+}

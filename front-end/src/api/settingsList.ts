@@ -1,0 +1,1 @@
+export const settingsList: Map<string, string> = new Map<string, string>();

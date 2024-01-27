@@ -1,0 +1,33 @@
+{
+    "name": "@starlight/backend",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "RealCosis",
+        "email": "gogliacosimoceleste@gmail.com"
+    },
+    "private": true,
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "start": "node dist/main.js",
+        "dev": "nodemon -e ts -w ./src -x npm run watch",
+        "watch": "ts-node src/main.ts"
+    },
+    "dependencies": {
+        "@fastify/cookie": "^8.3.0",
+        "@fastify/cors": "^8.2.0",
+        "@fastify/csrf-protection": "^6.3.0",
+        "bcryptjs": "^2.4.3",
+        "fastify": "^4.12.0",
+        "jsonwebtoken": "^9.0.0",
+        "mysql2": "^3.1.2",
+        "typeorm": "^0.3.12"
+    },
+    "devDependencies": {
+        "@types/bcryptjs": "^2.4.2",
+        "@types/jsonwebtoken": "^9.0.1",
+        "@types/node": "^18.13.0",
+        "nodemon": "^2.0.20",
+        "ts-node": "^10.9.1"
+    }
+}
