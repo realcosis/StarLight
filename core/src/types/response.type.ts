@@ -1,4 +1,4 @@
-export type ResponseType<T> = {
+export type ResponseType = {
     status: string;
-    data: T;
+    data: Object;
 }

@@ -1,13 +1,9 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
-import { SingleType } from '../../core/types/single.type';
+import { SingleType, ListType, StatusModels, SettingsModel, LocaleModels } from '@starlight/core';
 import { UserEntity } from '../../core/database/entities/user.entity';
 import { Bootstrap } from '../../main';
-import { StatusModels } from './models/status.models';
 import { ResponseUtils } from '../../core/utils/response.utils';
-import { LocaleModels } from './models/locale.models';
-import { SettingsModel } from './models/settings.models';
 import { SettingEntity } from '../../core/database/entities/settings.entity';
-import { ListType } from '../../core/types/list.type';
 
 export class HealthController {
     public async online(request: FastifyRequest, response: FastifyReply): Promise<void> {

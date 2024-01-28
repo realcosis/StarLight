@@ -1,8 +1,6 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { LoggerManager } from '../logger/logger.manager';
-import { ListType } from "../types/list.type";
-import { ResponseType } from "../types/response.type";
-import { SingleType } from "../types/single.type";
+import { ListType, SingleType, ResponseType } from '@starlight/core';
 
 export class ResponseUtils {
     public static ResponseLogger(request: FastifyRequest, response: FastifyReply): void {

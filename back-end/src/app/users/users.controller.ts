@@ -1,16 +1,11 @@
 import * as jwt from 'jsonwebtoken';
 import * as bcrypt from 'bcryptjs';
+import { SingleType, UserLoginModels, SessionModels, TokenModels, ProfileModels, AccessTokenModels } from '@starlight/core';
 import { FastifyRequest, FastifyReply } from 'fastify';
 import { UserEntity } from '../../core/database/entities/user.entity';
 import { PermissionEntity } from '../../core/database/entities/permission.entity';
 import { Bootstrap } from '../../main';
 import { ResponseUtils } from '../../core/utils/response.utils';
-import { UserLoginModels } from './models/userlogin.models';
-import { SingleType } from '../../core/types/single.type';
-import { TokenModels } from './models/token.models';
-import { SessionModels } from './models/session.models';
-import { ProfileModels } from './models/profile.models';
-import { AccessTokenModels } from './models/accesstoken.models';
 
 export class UsersController {
     public async login(request: FastifyRequest, response: FastifyReply): Promise<void> {

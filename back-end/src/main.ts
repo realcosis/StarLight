@@ -10,7 +10,7 @@ import { ConfigManager } from './core/config/config.manager';
 import { ResponseUtils } from './core/utils/response.utils';
 import { LocalizationManager } from './core/localization/localization.manager';
 import { HealthRouter } from './app/health/health.router';
-import './core/extension/string.extension';
+import '@starlight/core/src/extension/string.extension';
 
 export class Bootstrap {
     private static readonly _logger: LoggerManager = new LoggerManager('Bootstrap');
